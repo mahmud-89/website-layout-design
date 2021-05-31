@@ -49,7 +49,7 @@ a{
 }
 
 .m-heading{
-    font-size: 1.7rem;
+    font-size: 2rem;
     color: #fff;
     line-height: 3rem;
 }
@@ -165,7 +165,9 @@ a{
 }
 
 #what .items .item i{
-    /* background: #93cb52; */
+    background: #93cb52;
+    padding: 1.2rem;
+    border-radius: 50%;
 }
 
 
