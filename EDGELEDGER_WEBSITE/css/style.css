@@ -51,7 +51,13 @@ a{
 .m-heading{
     font-size: 2rem;
     color: #fff;
-    line-height: 3rem;
+    line-height: 2rem;
+}
+
+.s-heading{
+    font-size: 1.3rem;
+    color: #fff;
+    line-height: 1rem;
 }
 
 .lead{
@@ -70,6 +76,38 @@ a{
 .bg-dark{
     background: #333;
 }
+
+.p-1{
+    padding: .75rem;
+}
+.p-2{
+    padding: 1.3rem;
+}
+.p-3{
+    padding: 1.9rem;
+}
+
+.py-1{
+    padding: .75rem;
+}
+.py-2{
+    padding: 1.3rem;
+}
+.py-3{
+    padding: 1.9rem;
+}
+
+.px-1{
+    padding: 0 .75rem;
+}
+.px-2{
+    padding: 0 1.3rem;
+}
+.px-3{
+    padding: 0 1.9rem;
+}
+
+ 
 
 .btn{
     display: inline-block;
@@ -127,6 +165,7 @@ a{
     border-radius: 5px;
 }
 
+
 #showcase{
     background: url(../img/showcase.jpg) no-repeat
     center center/cover;
@@ -151,13 +190,13 @@ a{
 }
 
 /* What we do */
-
 #what{
     padding: 1rem;
 }
 
 #what .items{
     display: flex;
+    flex: 1;
 }
 
 #what .items .item{
@@ -168,6 +207,41 @@ a{
     background: #93cb52;
     padding: 1.2rem;
     border-radius: 50%;
+}
+
+
+/* Section: who we are */
+#who{
+    display: flex;
+}
+
+#who .who-img{
+    background: url(../img/people.jpg) no-repeat
+    center center/cover;
+    width: 50%;
+}
+
+#who .who-content{
+    width: 50%;
+}
+
+#who .who-content h2{
+    color: #f4f4f4;
+}
+
+#who .who-content .list{
+    list-style: none;
+    color: #f4f4f4;
+}
+
+#who .who-content .list li{
+    margin: 1rem 0;
+    border-bottom: 1px dotted #999;
+}
+
+#who .who-content .list li:first-child{
+    border: none;
+    font-weight: 700;
 }
 
 
