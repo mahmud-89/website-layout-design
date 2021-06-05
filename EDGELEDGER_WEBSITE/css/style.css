@@ -38,26 +38,32 @@ a{
     text-align: center;
 }
 
+.text-light{
+    color: #f4f4f4;
+}
+
+.text-dark{
+    color: #333;
+}
+
 .logo{
     color: #f4f4f4;
 }
 
 .l-heading{
-    font-size: 3rem;
-    color: #fff;
-    line-height: 3rem;
+    font-size: 4rem;
+    line-height: 3.7rem;
 }
 
 .m-heading{
-    font-size: 2rem;
-    color: #fff;
-    line-height: 2rem;
+    font-size: 3rem;
+    line-height: 2.7rem;
 }
 
 .s-heading{
-    font-size: 1.3rem;
+    font-size: 2rem;
     color: #fff;
-    line-height: 1rem;
+    line-height: 1.7rem;
 }
 
 .lead{
@@ -66,7 +72,7 @@ a{
 }
 
 .bg-primary{
-    color: #93cb52;
+    background-color: #93cb52;
 }
 
 .bg-light{
@@ -107,7 +113,22 @@ a{
     padding: 0 1.9rem;
 }
 
- 
+.my-1{
+    margin: .75rem 0;
+}
+.my-2{
+    margin: 1.3rem 0;
+}
+.my-3{
+    margin: 1.9rem 0;
+}
+
+.my-1{
+    margin: .75rem 0;
+}
+.my-2{
+    margin: 1.3rem 0;
+}
 
 .btn{
     display: inline-block;
@@ -237,11 +258,78 @@ a{
 #who .who-content .list li{
     margin: 1rem 0;
     border-bottom: 1px dotted #999;
+    padding-bottom: .5rem;
+    
 }
 
 #who .who-content .list li:first-child{
     border: none;
     font-weight: 700;
 }
+
+
+/* Section: clients */
+#clients .clients-logo{
+    display: flex;    
+}
+
+#clients .clients-logo img{
+    display: block;
+    width: 10%;
+    margin: auto;
+    margin-bottom: 1.3rem;
+}
+
+/* Section: contact */
+#contact{
+    display: flex;
+}
+
+#contact .contact-form h2,
+#contact .contact-form p{
+    margin-left: 1.6rem;
+}
+
+#contact .contact-form{flex: 1;}
+#contact .contact-location{flex:2}
+
+#contact .contact-form .form-group{
+    margin: .5rem;
+}
+
+#contact .contact-form label{
+    display: block;
+    color: #f4f4f4;
+}
+
+#contact .contact-form input,
+#contact .contact-form textarea{
+    width: 100%;
+    padding: .5rem;
+    outline: none !important; 
+}
+
+#contact .contact-form input:focus,
+#contact .contact-form textarea:focus{
+    border: 1px solid #87fa04;
+    padding: .7rem;
+}
+
+#contact .contact-location{
+    background: url(../img/map.jpg) no-repeat
+    center center/cover;
+}
+
+
+/* Footer */
+#main-footer p{
+    margin-top: 1rem ;
+}
+
+
+
+
+
+
 
 
