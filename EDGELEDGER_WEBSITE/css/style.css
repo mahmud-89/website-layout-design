@@ -7,7 +7,7 @@
 
 body{
     font-family: 'Roboto',sans-serif;
-    line-height: 1.5rem;
+    line-height: 1.3rem;
 }
 
 p{
@@ -15,7 +15,7 @@ p{
 }
 
 h2,h4{
-    padding: 1.3rem 0;
+    padding: 1.2rem 0;
 }
 
 a{
@@ -25,7 +25,7 @@ a{
 /* utilities classes */
 
 .container{
-    max-width: 1100px;
+    max-width: 1200px;
     margin: auto;
     overflow: hidden;
 }
@@ -164,6 +164,7 @@ a{
     top: 0;
     z-index: 1;
     padding: 1rem;
+    overflow: hidden;
 }
 
 .navbar ul{
@@ -186,16 +187,18 @@ a{
     border-radius: 5px;
 }
 
-
+/* showcasing */
 #showcase{
     background: url(../img/showcase.jpg) no-repeat
     center center/cover;
     height: 100vh;
+    position: relative;
 }
 
 #showcase .showcase-content{
     display: flex;
     height: 100%;
+    width: 100%;
     flex-direction: column;
     text-align: center;
     justify-content: center;
@@ -203,7 +206,7 @@ a{
 
     /* overlay */
     position: absolute;
-    top: 57px;
+    top: 0;
     left: 0;
     right: 0;
     bottom: 0;
@@ -228,6 +231,10 @@ a{
     background: #93cb52;
     padding: 1.2rem;
     border-radius: 50%;
+}
+
+#what .items .item h4{
+    padding-bottom: .5rem;
 }
 
 
@@ -269,6 +276,10 @@ a{
 
 
 /* Section: clients */
+#clients .clients-flex{
+    display: flex;
+    flex-direction: column;
+}
 #clients .clients-logo{
     display: flex;    
 }
@@ -291,7 +302,7 @@ a{
 }
 
 #contact .contact-form{flex: 1;}
-#contact .contact-location{flex:2}
+#contact .contact-location{flex:1}
 
 #contact .contact-form .form-group{
     margin: .5rem;
